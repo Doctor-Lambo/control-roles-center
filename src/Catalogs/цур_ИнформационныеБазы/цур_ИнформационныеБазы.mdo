@@ -260,9 +260,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <fillChecking>ShowError</fillChecking>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c9d0e1f2-a3b4-4ec5-d6e7-f8a9b0c1d2e3">
@@ -276,9 +276,39 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5e">
+    <name>ЗагружатьМетаданныеИз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружать метаданные из</value>
+    </synonym>
+    <type>
+      <types>EnumRef.цур_ИсточникиМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6f">
+    <name>ЗагружатьРолиИз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружать роли из</value>
+    </synonym>
+    <type>
+      <types>EnumRef.цур_РежимыЗагрузкиРолей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d0e1f2a3-b4c5-4fd6-e7f8-a9b0c1d2e3f4">
@@ -292,21 +322,6 @@
       <stringQualifiers>
         <length>500</length>
       </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="e1f2a3b4-c5d6-50e7-f8a9-b0c1d2e3f4a5">
-    <name>ИспользоватьБСП</name>
-    <synonym>
-      <key>ru</key>
-      <value>Использовать БСП</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

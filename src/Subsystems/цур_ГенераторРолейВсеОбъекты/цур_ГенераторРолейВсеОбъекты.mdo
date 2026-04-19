@@ -10,7 +10,6 @@
     <value>Гпр генератор ролей все объекты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonCommand.цур_Настройки</content>
   <content>DataProcessor.цур_ГенераторРолей</content>
   <content>DataProcessor.цур_ЗагрузкаXMLРолей</content>
   <content>Catalog.цур_Роли</content>
@@ -20,7 +19,6 @@
   <content>InformationRegister.цур_ПодсистемыРолей</content>
   <content>InformationRegister.цур_РеестрВидовМетаданных</content>
   <content>InformationRegister.цур_XMLРолейКонфигурации</content>
-  <content>Constant.цур_ИспользоватьПромежуточнуюБазу</content>
   <content>CommonTemplate.гпр_ШаблонРасширения</content>
   <content>CommonTemplate.гпр_ПустаяБазаДанных</content>
   <content>CommonTemplate.цур_РеестрВидовМетаданныхJSON</content>
@@ -31,6 +29,8 @@
   <content>CommonModule.цур_ПостроительXMLОбъектовСервер</content>
   <content>CommonModule.цур_ПостроительКонфигурацииСервер</content>
   <content>CommonModule.цур_ФайловыеОперацииСервер</content>
+  <content>CommonModule.цур_ПровайдерМетаданныхСервер</content>
+  <content>CommonModule.цур_ПровайдерРолейСервер</content>
   <content>CommonModule.цур_КонструкторРасширенияСервер</content>
   <content>CommonModule.цур_ИмпортЭкспортСервер</content>
   <content>CommonModule.цур_ОбновлениеРолейСервер</content>
@@ -42,9 +42,6 @@
   <content>CommonModule.цур_СтроковыеФункцииКлиентСервер</content>
   <content>Enum.цур_РежимыЗагрузкиРолей</content>
   <content>Enum.цур_ТипыИсточниковЗаполнения</content>
-  <content>Constant.цур_РежимЗагрузкиРолей</content>
-  <content>Constant.цур_КаталогВыгрузкиКонфигурации</content>
-  <content>Constant.цур_ПутьКПлатформе</content>
   <content>CommonPicture.гпр_RLS</content>
   <content>CommonPicture.гпр_WebСервис</content>
   <content>CommonPicture.гпр_ВводПоСтроке</content>
@@ -88,5 +85,4 @@
   <content>CommonPicture.гпр_Чтение</content>
   <content>CommonPicture.гпр_ЧтениеИсторииДанных</content>
   <content>CommonPicture.гпр_ЧтениеИсторииДанныхОтсутствующихДанных</content>
-  <content>CommonForm.цур_Настройки</content>
 </mdclass:Subsystem>

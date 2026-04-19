@@ -11,7 +11,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonCommand.цур_Настройки</content>
+  <content>Constant.цур_ИспользоватьБСП</content>
   <content>Catalog.цур_Роли</content>
   <content>DataProcessor.цур_ЗагрузкаXMLРолей</content>
   <content>DataProcessor.цур_ГенераторРолей</content>

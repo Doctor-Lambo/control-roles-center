@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af121f0c-bcf0-442b-ab28-5ff3396d014a">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f3a1e92-b054-4c8d-a2f1-3e5d7c9b0a14">
   <producedTypes>
-    <managerType typeId="96433f39-c613-46ff-8c89-aba1e09e3ff1" valueTypeId="a9e1146c-c4c0-4308-a13e-255e42ad1504"/>
-    <valueManagerType typeId="c52c92ee-0e2b-40cc-89f1-cdeda84049be" valueTypeId="fece4150-836b-4cf1-80ac-5010c04e81ac"/>
-    <valueKeyType typeId="05dddc18-9896-45e7-97a1-290d70ce0706" valueTypeId="9b7a6928-b43e-49b3-babe-8c40be61f099"/>
+    <managerType typeId="2c8b4f71-a903-4e6d-b5f2-1d4c7a8e9b03" valueTypeId="6e2d5f84-c017-4b7a-93e1-2f5a8c0d4b62"/>
+    <valueManagerType typeId="9d1e6a47-b823-4f9c-d0e2-4b6f1a7c3e85" valueTypeId="7f3a1e92-b054-4c8d-a2f1-3e5d7c9b0a14"/>
+    <valueKeyType typeId="3f7b2d56-e091-4a8c-f1d3-5c7e2b4a9d06" valueTypeId="8a4c0f13-d162-4e5b-a2f0-6d9b3c1e7a48"/>
   </producedTypes>
   <name>цур_ИспользоватьБСП</name>
   <synonym>
     <key>ru</key>
-    <value>Использовать БСП (Библиотеку стандартных подсистем)</value>
+    <value>Использовать БСП</value>
   </synonym>
-  <comment>При включении — фоновые задания и вспомогательные функции делегируются модулям БСП</comment>
+  <comment>При включении ЦУР использует методы Библиотеки стандартных подсистем текущей базы</comment>
+  <useStandardCommands>true</useStandardCommands>
   <type>
     <types>Boolean</types>
   </type>
-  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
 </mdclass:Constant>

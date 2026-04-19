@@ -107,17 +107,12 @@
   <commonModules>CommonModule.цур_ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.цур_СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.цур_ФоновыеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.цур_ПровайдерРолейСервер</commonModules>
   <scheduledJobs>ScheduledJob.цур_ОбновлениеРолейПоПрофилям</scheduledJobs>
   <definedTypes>DefinedType.цур_Пользователи</definedTypes>
   <definedTypes>DefinedType.цур_ПрофилиГруппДоступа</definedTypes>
-  <commonCommands>CommonCommand.цур_Настройки</commonCommands>
-  <constants>Constant.цур_ИспользоватьПромежуточнуюБазу</constants>
-  <constants>Constant.цур_РежимЗагрузкиРолей</constants>
-  <constants>Constant.цур_КаталогВыгрузкиКонфигурации</constants>
-  <constants>Constant.цур_ПутьКПлатформе</constants>
-  <constants>Constant.цур_ИспользоватьБСП</constants>
   <constants>Constant.цур_ИнициализацияВыполнена</constants>
-  <commonForms>CommonForm.цур_Настройки</commonForms>
+  <constants>Constant.цур_ИспользоватьБСП</constants>
   <catalogs>Catalog.цур_ИнформационныеБазы</catalogs>
   <catalogs>Catalog.цур_Роли</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
@@ -125,6 +120,7 @@
   <enums>Enum.цур_СтатусыРоли</enums>
   <enums>Enum.цур_РежимыЗагрузкиРолей</enums>
   <enums>Enum.цур_ТипыИсточниковЗаполнения</enums>
+  <enums>Enum.цур_ИсточникиМетаданных</enums>
   <dataProcessors>DataProcessor.цур_ГенераторРолей</dataProcessors>
   <dataProcessors>DataProcessor.цур_ЗагрузкаXMLРолей</dataProcessors>
   <informationRegisters>InformationRegister.цур_ПраваДоступа</informationRegisters>

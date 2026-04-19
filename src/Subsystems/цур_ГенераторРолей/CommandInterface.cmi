@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.цур_ГенераторРолей.Subsystem.Справочники</subsystems>
+    <subsystems>Subsystem.цур_ГенераторРолей.Subsystem.Обработки</subsystems>
+    <subsystems>Subsystem.цур_ГенераторРолей.Subsystem.Регистры</subsystems>
+    <subsystems>Subsystem.цур_ГенераторРолей.Subsystem.цур_ОсновныеОбъекты</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

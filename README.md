@@ -4,6 +4,7 @@
 
 ![Platform](https://img.shields.io/badge/1С-8.3.24%2B-yellow)
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)
+![Release](https://img.shields.io/github/v/release/Doctor-Lambo/control-roles-center?label=release)
 
 ## Содержание
 

@@ -28,4 +28,4 @@
 - Расширенная поддержка RLS — поля и шаблоны ограничений
 - Автоинкремент версии расширения
 
-[2.2.0.1]: https://github.com/DoctorLambo-o/control-roles-center/releases/tag/v2.2.0.1
+[2.2.0.1]: https://github.com/Doctor-Lambo/control-roles-center/releases/tag/v2.2.0.1

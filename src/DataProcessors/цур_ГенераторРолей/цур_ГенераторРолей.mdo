@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a">
+  <producedTypes>
+    <objectType typeId="c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f" valueTypeId="b1c2d3e4-f5a6-4b7c-8d9e-0f1a2b3c4d5e"/>
+    <managerType typeId="a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d" valueTypeId="f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c"/>
+  </producedTypes>
+  <name>цур_ГенераторРолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор ролей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.цур_ГенераторРолей.Form.Форма</defaultForm>
+  <attributes uuid="11a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c">
+    <name>РежимСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим сборки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="22b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d">
+    <name>ПутьКРезультату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к результату</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="33c4d5e6-f7a8-4b9c-0d1e-2f3a4b5c6d7e">
+    <name>ИмяРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d42f6e1d-90f5-45ed-b646-55ba337f6cdb">
+    <name>Форма</name>
+    <synonym>
+      <key></key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

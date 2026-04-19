@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="760d01bf-0c1f-4989-8757-9d01607bb7ab">
+  <name>Обработки</name>
+  <synonym>
+    <key></key>
+    <value>Обработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.цур_ГенераторРолей</content>
+  <content>DataProcessor.цур_ЗагрузкаXMLРолей</content>
+  <parentSubsystem>Subsystem.цур_ГенераторРолей</parentSubsystem>
+</mdclass:Subsystem>

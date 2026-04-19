@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01951e80-a387-443b-bf4f-94d523852eb4">
+  <producedTypes>
+    <managerType typeId="21541d56-35d2-4397-acbd-219f4dd88eae" valueTypeId="9097a1e7-b2e8-48c5-8cf8-318dc8117f53"/>
+    <valueManagerType typeId="3ef429f5-d8e8-44dd-bf8d-e26edf4804c9" valueTypeId="01951e80-a387-443b-bf4f-94d523852eb4"/>
+    <valueKeyType typeId="fa6aaaa3-88d5-489f-a2d3-8b083210bff0" valueTypeId="aac2f523-cfeb-4e9b-8cb3-1be635a7907c"/>
+  </producedTypes>
+  <name>цур_ИнициализацияВыполнена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инициализация выполнена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

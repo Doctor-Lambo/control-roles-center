@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa27c731-4889-4120-8e08-7785f985a23c">
+  <producedTypes>
+    <objectType typeId="e0876043-5f16-4e86-8ade-7a1093b4f230" valueTypeId="460aba48-1f0a-4831-bffb-d0ffaba9ed1a"/>
+    <refType typeId="e8fb8113-f48c-4ebd-bdbc-2a096303b3bf" valueTypeId="2da555e5-5395-4265-9a03-11f1f07b9545"/>
+    <selectionType typeId="129087d8-9765-41cd-ab1a-8f64fc6970ff" valueTypeId="0fefe51c-aecd-4ec7-bdb5-1345402554bd"/>
+    <listType typeId="4951282a-3a10-46e6-82ef-9fe6830d34a1" valueTypeId="f478782f-75ce-4555-8d01-b0c87c0cd258"/>
+    <managerType typeId="b443d6f7-9558-4941-a59b-aab39763083d" valueTypeId="9c5d9186-0515-476b-b785-d9a5d70552cc"/>
+  </producedTypes>
+  <name>цур_Роли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.цур_Роли.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.цур_Роли.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.цур_ИнформационныеБазы.ПоУмолчанию</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.цур_Роли.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.цур_ИнформационныеБазы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.цур_Роли.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.цур_Роли.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="089010eb-6425-4fb5-a8ee-34328fc32c77">
+    <name>ИмяРолиВКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя роли в конфигурации</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Имя роли в конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d598e42-69d3-435d-969c-0ffce78213e8">
+    <name>ИдентификаторРоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор роли</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Идентификатор роли</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af568a2c-8832-4d6e-be6e-88a59a2436ff">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7277f97-a870-4e4e-bfa9-33f39c29206f">
+    <name>УстанавливатьДляНовыхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливать для новых объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd57ba08-04e0-49d3-866b-965aab5dc452">
+    <name>УстанавливатьДляРеквизитовПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливать для реквизитов по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09b1e4a0-79bc-4bcd-addc-9b4db1a17278">
+    <name>НезависимыеПраваПодчиненных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Независимые права подчиненных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7ecf3e9-40fa-40cb-b1ad-f9fbdff5b7b8">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.цур_СтатусыРоли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f3a5b31-e13c-4a68-8666-5dded15346d1">
+    <name>ПрофильДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d8fd49f-55cf-46dd-976b-db24f498a554">
+    <name>ХешСоставаРоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш состава роли</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="09bfe053-212f-4d7e-931f-6f796d9cb756">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key></key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ddec4ae9-67d8-48ea-bc3b-a979d3b19285">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key></key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d874c3fb-7a7a-4fb4-963a-73146359f694">
+    <name>ФормаВыбораРоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор роли конфигурации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="18db3a7f-4360-4c5a-89a8-1d6239fa3c53">
+    <name>ФормаВыбораОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объектов метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="b3f1a2c4-5d6e-4f7a-8b9c-0d1e2f3a4b5c">
+    <name>ФормаРедактированияОграниченияДоступаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование ограничений доступа объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="c4e2b3d5-6f7a-5b8c-9d0e-1f2a3b4c5d6e">
+    <name>РедакторТекстаОграниченияДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор текста ограничения доступа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7b2c3d4-e5f6-4a8b-9c0d-1e2f3a4b5c6d">
+  <producedTypes>
+    <refType typeId="3f8c9d0a-b1c2-4d3e-5f6a-7b8c9d0e1f2a" valueTypeId="4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d"/>
+    <listType typeId="7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a" valueTypeId="8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b"/>
+    <managerType typeId="5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e" valueTypeId="6c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f"/>
+  </producedTypes>
+  <name>цур_ТипыИсточниковЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы источников заполнения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a7b2c3d4-e5f6-4a8b-9c0d-1e2f3a4b5c6e">
+    <name>РольКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль конфигурации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7b2c3d4-e5f6-4a8b-9c0d-1e2f3a4b5c6f">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль групп доступа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7b2c3d4-e5f6-4a8b-9c0d-1e2f3a4b5c70">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="677c8380-3678-4336-97a8-2e1f019f08bb">
+    <name>ПользовательБСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь (по профилям БСП)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

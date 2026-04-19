@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4163453b-d870-4c3d-aac3-d01fd82e4dcf">
+  <producedTypes>
+    <containerType typeId="c3f18043-da9d-4fe2-b69e-42e6d1d37ada" valueTypeId="177233cb-4ab9-477f-b8ec-64818c7c58cb"/>
+  </producedTypes>
+  <name>цур_ПрофилиГруппДоступа</name>
+  <synonym>
+    <key></key>
+    <value>Гпр профили групп доступа</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПрофилиГруппДоступа</types>
+  </type>
+</mdclass:DefinedType>

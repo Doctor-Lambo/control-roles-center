@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58fb9958-1792-427c-aac8-43f54989e998">
+  <producedTypes>
+    <selectionType typeId="e04fc1a5-b32a-43ba-b4b2-9068d96e3b1d" valueTypeId="0f9e9e70-c4ff-46e7-8b1b-c0d1ff66d266"/>
+    <listType typeId="50173cd5-31b5-432a-bfb3-9737452219c3" valueTypeId="4a4459b6-ec63-4807-b50d-a79b53ba145b"/>
+    <managerType typeId="4124ce14-d471-4849-a747-6b44357ad021" valueTypeId="b38a9dd9-d777-445b-ba9b-8c654a0cb263"/>
+    <recordSetType typeId="8ddd9ea2-565f-4e4b-bcb6-f9173bf95338" valueTypeId="210e1292-902f-49e8-8421-754dda5234b5"/>
+    <recordKeyType typeId="eb9afe87-a4f4-4e2c-b312-1e1556a19708" valueTypeId="8b7e9c1f-63b7-42c9-839a-6b70cba1a624"/>
+    <recordType typeId="d98cb578-3145-44ce-85c0-dc6362dba1af" valueTypeId="41d67a0f-ed5e-4c17-b520-9b350b8ebadd"/>
+    <recordManagerType typeId="86ff6d82-c9a0-4995-b054-a0a96d33131b" valueTypeId="11c73ef2-e754-4f4b-84ec-fa048a9dc318"/>
+  </producedTypes>
+  <name>цур_ПодсистемыРолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистемы ролей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dimensions uuid="b8c7e520-854c-4126-b851-1b221d21f81c">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.цур_Роли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a73e951b-7333-4fa9-99a9-ad30bedecf3e">
+    <name>ПолноеИмяПодсистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя подсистемы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

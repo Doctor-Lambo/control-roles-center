@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4caddd1a-2cf0-451e-a726-05166ba9684f">
+  <producedTypes>
+    <selectionType typeId="fc1c73ec-7fa3-4392-837b-0ef46a8c79bc" valueTypeId="428cc18d-d6c0-4ac0-ba7b-0800fb7f5095"/>
+    <listType typeId="f0f5deda-ff07-42ab-a5a5-ef48da5012ac" valueTypeId="d8563618-9da3-4904-bfbe-6c8712d6c616"/>
+    <managerType typeId="c3fbe2e5-0097-41a0-bca7-61a471984535" valueTypeId="762f8043-1f50-4ebc-96fa-09e7aa3dab95"/>
+    <recordSetType typeId="47f26907-e683-4819-9bb5-4b043cc2052b" valueTypeId="5ce8f83e-39e8-4f99-afcd-bc465704bb96"/>
+    <recordKeyType typeId="6a071200-119e-41ad-a246-d7667f74b418" valueTypeId="165de3cf-049c-4ed7-9f48-7066d4c6ee0c"/>
+    <recordType typeId="93ba680a-f84d-4e09-bb84-70fd0e100859" valueTypeId="845d5e2c-9e34-438c-b829-01e7b1e3dbe3"/>
+    <recordManagerType typeId="e1c65f1a-3b84-4df5-9b7a-a6571bea205f" valueTypeId="04f6e984-a1f8-479c-8a21-88e5ec19723c"/>
+  </producedTypes>
+  <name>цур_ОграниченияДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничения доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="a5b9be23-9e7e-4dc5-86cf-524db991a79f">
+    <name>УсловиеОграничения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие ограничения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="75bd10db-47ca-471f-8eb4-124aa541f1b0">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.цур_Роли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="73913dd9-b03f-448e-9a5d-ca2f2ba29e82">
+    <name>ВидОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="2c4044df-6cfb-4ce7-8c11-68dc2ca543e8">
+    <name>ИмяОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="afb0a14f-dad3-4350-bef6-c5f755086e9d">
+    <name>ИмяПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя права</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="2d519fe4-180d-4389-ae63-ca11550f35c0">
+    <name>Поля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

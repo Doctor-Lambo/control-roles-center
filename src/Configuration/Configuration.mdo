@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b8c3d4e5-f6a7-4b8c-9d0e-f1a2b3c4d5e6">
+  <name>ЦентрУправленияРолями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр управления ролями</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <sessionModule>Extended</sessionModule>
+    <defaultLanguage>Checked</defaultLanguage>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5d76d26e-c394-5f01-98bb-1f1e03853c88"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e2a40404-bce7-5b6b-0729-d06a765e5801"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="748afc19-eb4f-56b0-97c5-15c73515e19d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d6cd6b15-a92a-58a2-93f0-7462d3d9e553"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7eaa7acd-5ddd-5a17-9869-ac27888cfde8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="acda25e5-d7a8-5302-93d5-261283605bb1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a0a04d0a-a0f8-57b2-bc96-b648594273a0"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>цур_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <version>2.2.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Центр управления ролями</value>
+  </detailedInformation>
+  <languages uuid="90d0379f-9e2c-4d3c-ae53-06eeb34fec10" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.цур_ГенераторРолейВсеОбъекты</subsystems>
+  <subsystems>Subsystem.цур_ГенераторРолей</subsystems>
+  <commonPictures>CommonPicture.гпр_RLS</commonPictures>
+  <commonPictures>CommonPicture.гпр_WebСервис</commonPictures>
+  <commonPictures>CommonPicture.гпр_ВводПоСтроке</commonPictures>
+  <commonPictures>CommonPicture.гпр_ГенераторРолей</commonPictures>
+  <commonPictures>CommonPicture.гпр_Добавление</commonPictures>
+  <commonPictures>CommonPicture.гпр_Изменение</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИзменениеИсторииДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИзменениеИсторииДанныхОтстутсвующихДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИзменениеКомментарияВерсииИсторииДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИзменениеНастроекИсторииДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтеракивноеУдалениеПомеченных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивканаяПометкаНаУдаление</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивнаяОтменаПроведения</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивнаяПометкаНаУдалениеПредопределенных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеДобавление</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеИзменениеПроведенных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеПроведение</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеПроведениеНеОперативное</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеСнятиеПометкиУдаления</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеСнятиеПометкиУдаленияПредопределенных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеУдаление</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеУдалениеПомеченныхПредопределенных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ИнтерактивноеУдалениеПредопределенных</commonPictures>
+  <commonPictures>CommonPicture.гпр_Использование</commonPictures>
+  <commonPictures>CommonPicture.гпр_ЛоготипРарус</commonPictures>
+  <commonPictures>CommonPicture.гпр_ОбщаяКоманда</commonPictures>
+  <commonPictures>CommonPicture.гпр_ОтменаПроведения</commonPictures>
+  <commonPictures>CommonPicture.гпр_ПараметрСеанса</commonPictures>
+  <commonPictures>CommonPicture.гпр_ПереходНаВерсиюИсторииДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_Подсистема</commonPictures>
+  <commonPictures>CommonPicture.гпр_Получение</commonPictures>
+  <commonPictures>CommonPicture.гпр_Проведение</commonPictures>
+  <commonPictures>CommonPicture.гпр_Просмотр</commonPictures>
+  <commonPictures>CommonPicture.гпр_ПросмотрИсторииДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_Редактирование</commonPictures>
+  <commonPictures>CommonPicture.гпр_РедактированияКомментарияВерсииИсторииДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_СтандартныйРеквизит</commonPictures>
+  <commonPictures>CommonPicture.гпр_Удалить</commonPictures>
+  <commonPictures>CommonPicture.гпр_УправлениеИтогами</commonPictures>
+  <commonPictures>CommonPicture.гпр_Установка</commonPictures>
+  <commonPictures>CommonPicture.гпр_Чтение</commonPictures>
+  <commonPictures>CommonPicture.гпр_ЧтениеИсторииДанных</commonPictures>
+  <commonPictures>CommonPicture.гпр_ЧтениеИсторииДанныхОтсутствующихДанных</commonPictures>
+  <roles>Role.цур_РаботаСГенераторомРолей</roles>
+  <roles>Role.цур_ПросмотрРолей</roles>
+  <commonTemplates>CommonTemplate.гпр_ШаблонРасширения</commonTemplates>
+  <commonTemplates>CommonTemplate.гпр_ПустаяБазаДанных</commonTemplates>
+  <commonTemplates>CommonTemplate.цур_РеестрВидовМетаданныхJSON</commonTemplates>
+  <commonModules>CommonModule.цур_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.цур_МодельРолейСервер</commonModules>
+  <commonModules>CommonModule.цур_РеестрМетаданныхСервер</commonModules>
+  <commonModules>CommonModule.цур_ПровайдерМетаданныхСервер</commonModules>
+  <commonModules>CommonModule.цур_ПостроительXMLРолейСервер</commonModules>
+  <commonModules>CommonModule.цур_ПостроительXMLОбъектовСервер</commonModules>
+  <commonModules>CommonModule.цур_ПостроительКонфигурацииСервер</commonModules>
+  <commonModules>CommonModule.цур_ФайловыеОперацииСервер</commonModules>
+  <commonModules>CommonModule.цур_КонструкторРасширенияСервер</commonModules>
+  <commonModules>CommonModule.цур_ИмпортЭкспортСервер</commonModules>
+  <commonModules>CommonModule.цур_ОбновлениеРолейСервер</commonModules>
+  <commonModules>CommonModule.цур_ОбновлениеДанных</commonModules>
+  <commonModules>CommonModule.цур_РеестрМетаданныхСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.цур_ВызовСервера</commonModules>
+  <commonModules>CommonModule.цур_Клиент</commonModules>
+  <commonModules>CommonModule.цур_ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.цур_СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.цур_ФоновыеЗаданияСервер</commonModules>
+  <scheduledJobs>ScheduledJob.цур_ОбновлениеРолейПоПрофилям</scheduledJobs>
+  <definedTypes>DefinedType.цур_Пользователи</definedTypes>
+  <definedTypes>DefinedType.цур_ПрофилиГруппДоступа</definedTypes>
+  <commonCommands>CommonCommand.цур_Настройки</commonCommands>
+  <constants>Constant.цур_ИспользоватьПромежуточнуюБазу</constants>
+  <constants>Constant.цур_РежимЗагрузкиРолей</constants>
+  <constants>Constant.цур_КаталогВыгрузкиКонфигурации</constants>
+  <constants>Constant.цур_ПутьКПлатформе</constants>
+  <constants>Constant.цур_ИспользоватьБСП</constants>
+  <constants>Constant.цур_ИнициализацияВыполнена</constants>
+  <commonForms>CommonForm.цур_Настройки</commonForms>
+  <catalogs>Catalog.цур_ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.цур_Роли</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
+  <enums>Enum.цур_СтатусыРоли</enums>
+  <enums>Enum.цур_РежимыЗагрузкиРолей</enums>
+  <enums>Enum.цур_ТипыИсточниковЗаполнения</enums>
+  <dataProcessors>DataProcessor.цур_ГенераторРолей</dataProcessors>
+  <dataProcessors>DataProcessor.цур_ЗагрузкаXMLРолей</dataProcessors>
+  <informationRegisters>InformationRegister.цур_ПраваДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.цур_РеестрВидовМетаданных</informationRegisters>
+  <informationRegisters>InformationRegister.цур_МетаданныеКонфигурации</informationRegisters>
+  <informationRegisters>InformationRegister.цур_XMLРолейКонфигурации</informationRegisters>
+  <informationRegisters>InformationRegister.цур_ОграниченияДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.цур_ШаблоныОграничений</informationRegisters>
+  <informationRegisters>InformationRegister.цур_ПодсистемыРолей</informationRegisters>
+</mdclass:Configuration>

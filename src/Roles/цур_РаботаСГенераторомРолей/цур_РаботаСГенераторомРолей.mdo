@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0f4b81a-8729-4235-ae20-9d7700e854ea">
+  <name>цур_РаботаСГенераторомРолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с генератором ролей</value>
+  </synonym>
+</mdclass:Role>

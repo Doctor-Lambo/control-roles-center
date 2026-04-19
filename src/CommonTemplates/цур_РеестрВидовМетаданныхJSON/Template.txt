@@ -1,0 +1,480 @@
+[
+	{
+		"ВидМетаданных": "Subsystem",
+		"ИмяКоллекцииМетаданных": "Подсистемы",
+		"ИмяДляXML": "Subsystem",
+		"ИмяКоллекцииРасширения": "Subsystems",
+		"ИмяЭлементаРасширения": "Subsystem",
+		"Порядок": 1,
+		"Синоним": "Подсистема",
+		"СинонимМн": "Подсистемы",
+		"ДоступныеПрава": ["View"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {}
+	},
+	{
+		"ВидМетаданных": "SessionParameter",
+		"ИмяКоллекцииМетаданных": "ПараметрыСеанса",
+		"ИмяДляXML": "SessionParameter",
+		"ИмяКоллекцииРасширения": "SessionParameters",
+		"ИмяЭлементаРасширения": "SessionParameter",
+		"Порядок": 2,
+		"Синоним": "Параметр сеанса",
+		"СинонимМн": "Параметры сеанса",
+		"ДоступныеПрава": ["Get", "Set"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {}
+	},
+	{
+		"ВидМетаданных": "CommonAttribute",
+		"ИмяКоллекцииМетаданных": "ОбщиеРеквизиты",
+		"ИмяДляXML": "CommonAttribute",
+		"ИмяКоллекцииРасширения": "CommonAttributes",
+		"ИмяЭлементаРасширения": "CommonAttribute",
+		"Порядок": 3,
+		"Синоним": "Общий реквизит",
+		"СинонимМн": "Общие реквизиты",
+		"ДоступныеПрава": ["View", "Edit"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {}
+	},
+	{
+		"ВидМетаданных": "ExchangePlan",
+		"ИмяКоллекцииМетаданных": "ПланыОбмена",
+		"ИмяДляXML": "ExchangePlan",
+		"ИмяКоллекцииРасширения": "ExchangePlans",
+		"ИмяЭлементаРасширения": "ExchangePlan",
+		"Порядок": 4,
+		"Синоним": "План обмена",
+		"СинонимМн": "Планы обмена",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion"
+		],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {
+			"ExchangePlanObject": "Object",
+			"ExchangePlanRef": "Ref",
+			"ExchangePlanSelection": "Selection",
+			"ExchangePlanList": "List",
+			"ExchangePlanManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "FilterCriterion",
+		"ИмяКоллекцииМетаданных": "КритерииОтбора",
+		"ИмяДляXML": "FilterCriterion",
+		"ИмяКоллекцииРасширения": "FilterCriteria",
+		"ИмяЭлементаРасширения": "FilterCriterion",
+		"Порядок": 5,
+		"Синоним": "Критерий отбора",
+		"СинонимМн": "Критерии отбора",
+		"ДоступныеПрава": ["Use", "View"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {
+			"FilterCriterionManager": "Manager",
+			"FilterCriterionList": "List"
+		}
+	},
+	{
+		"ВидМетаданных": "CommonForm",
+		"ИмяКоллекцииМетаданных": "ОбщиеФормы",
+		"ИмяДляXML": "CommonForm",
+		"ИмяКоллекцииРасширения": "CommonForms",
+		"ИмяЭлементаРасширения": "CommonForm",
+		"Порядок": 6,
+		"Синоним": "Общая форма",
+		"СинонимМн": "Общие формы",
+		"ДоступныеПрава": ["View"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {}
+	},
+	{
+		"ВидМетаданных": "CommonCommand",
+		"ИмяКоллекцииМетаданных": "ОбщиеКоманды",
+		"ИмяДляXML": "CommonCommand",
+		"ИмяКоллекцииРасширения": "CommonCommands",
+		"ИмяЭлементаРасширения": "CommonCommand",
+		"Порядок": 7,
+		"Синоним": "Общая команда",
+		"СинонимМн": "Общие команды",
+		"ДоступныеПрава": ["View"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {}
+	},
+	{
+		"ВидМетаданных": "HTTPService",
+		"ИмяКоллекцииМетаданных": "HTTPСервисы",
+		"ИмяДляXML": "HTTPService",
+		"ИмяКоллекцииРасширения": "HTTPServices",
+		"ИмяЭлементаРасширения": "HTTPService",
+		"Порядок": 8,
+		"Синоним": "HTTP сервис",
+		"СинонимМн": "HTTP сервисы",
+		"ДоступныеПрава": ["Use"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {}
+	},
+	{
+		"ВидМетаданных": "WebService",
+		"ИмяКоллекцииМетаданных": "WebСервисы",
+		"ИмяДляXML": "WebService",
+		"ИмяКоллекцииРасширения": "WebServices",
+		"ИмяЭлементаРасширения": "WebService",
+		"Порядок": 9,
+		"Синоним": "Web сервис",
+		"СинонимМн": "Web сервисы",
+		"ДоступныеПрава": ["Use"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {}
+	},
+	{
+		"ВидМетаданных": "Constant",
+		"ИмяКоллекцииМетаданных": "Константы",
+		"ИмяДляXML": "Constant",
+		"ИмяКоллекцииРасширения": "Constants",
+		"ИмяЭлементаРасширения": "Constant",
+		"Порядок": 10,
+		"Синоним": "Константа",
+		"СинонимМн": "Константы",
+		"ДоступныеПрава": [
+			"Read", "Update", "View", "Edit",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion"
+		],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {
+			"ConstantManager": "Manager",
+			"ConstantValueManager": "ValueManager",
+			"ConstantValueKey": "ValueKey"
+		}
+	},
+	{
+		"ВидМетаданных": "Catalog",
+		"ИмяКоллекцииМетаданных": "Справочники",
+		"ИмяДляXML": "Catalog",
+		"ИмяКоллекцииРасширения": "Catalogs",
+		"ИмяЭлементаРасширения": "Catalog",
+		"Порядок": 11,
+		"Синоним": "Справочник",
+		"СинонимМн": "Справочники",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion"
+		],
+		"ГруппыВложенных": ["Attribute", "StandardAttribute", "TabularSection", "Command"],
+		"GeneratedTypes": {
+			"CatalogObject": "Object",
+			"CatalogRef": "Ref",
+			"CatalogSelection": "Selection",
+			"CatalogList": "List",
+			"CatalogManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "Document",
+		"ИмяКоллекцииМетаданных": "Документы",
+		"ИмяДляXML": "Document",
+		"ИмяКоллекцииРасширения": "Documents",
+		"ИмяЭлементаРасширения": "Document",
+		"Порядок": 12,
+		"Синоним": "Документ",
+		"СинонимМн": "Документы",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion",
+			"Posting", "UndoPosting", "InteractivePosting", "InteractivePostingRegular",
+			"InteractiveUndoPosting", "InteractiveChangeOfPosted"
+		],
+		"ГруппыВложенных": ["Attribute", "StandardAttribute", "TabularSection", "Command"],
+		"GeneratedTypes": {
+			"DocumentObject": "Object",
+			"DocumentRef": "Ref",
+			"DocumentSelection": "Selection",
+			"DocumentList": "List",
+			"DocumentManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "DocumentJournal",
+		"ИмяКоллекцииМетаданных": "ЖурналыДокументов",
+		"ИмяДляXML": "DocumentJournal",
+		"ИмяКоллекцииРасширения": "DocumentJournals",
+		"ИмяЭлементаРасширения": "DocumentJournal",
+		"Порядок": 13,
+		"Синоним": "Журнал документов",
+		"СинонимМн": "Журналы документов",
+		"ДоступныеПрава": ["Read", "View"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {
+			"DocumentJournalSelection": "Selection",
+			"DocumentJournalList": "List",
+			"DocumentJournalManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "Report",
+		"ИмяКоллекцииМетаданных": "Отчеты",
+		"ИмяДляXML": "Report",
+		"ИмяКоллекцииРасширения": "Reports",
+		"ИмяЭлементаРасширения": "Report",
+		"Порядок": 14,
+		"Синоним": "Отчет",
+		"СинонимМн": "Отчеты",
+		"ДоступныеПрава": ["Use", "View"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {
+			"ReportObject": "Object",
+			"ReportManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "DataProcessor",
+		"ИмяКоллекцииМетаданных": "Обработки",
+		"ИмяДляXML": "DataProcessor",
+		"ИмяКоллекцииРасширения": "DataProcessors",
+		"ИмяЭлементаРасширения": "DataProcessor",
+		"Порядок": 15,
+		"Синоним": "Обработка",
+		"СинонимМн": "Обработки",
+		"ДоступныеПрава": ["Use", "View"],
+		"ГруппыВложенных": [],
+		"GeneratedTypes": {
+			"DataProcessorObject": "Object",
+			"DataProcessorManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "ChartOfCharacteristicTypes",
+		"ИмяКоллекцииМетаданных": "ПланыВидовХарактеристик",
+		"ИмяДляXML": "ChartOfCharacteristicTypes",
+		"ИмяКоллекцииРасширения": "ChartsOfCharacteristicTypes",
+		"ИмяЭлементаРасширения": "ChartOfCharacteristicTypes",
+		"Порядок": 16,
+		"Синоним": "План видов характеристик",
+		"СинонимМн": "Планы видов характеристик",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion"
+		],
+		"ГруппыВложенных": ["Attribute", "StandardAttribute", "TabularSection", "Command"],
+		"GeneratedTypes": {
+			"ChartOfCharacteristicTypesObject": "Object",
+			"ChartOfCharacteristicTypesRef": "Ref",
+			"ChartOfCharacteristicTypesSelection": "Selection",
+			"ChartOfCharacteristicTypesList": "List",
+			"Characteristic": "Characteristic",
+			"ChartOfCharacteristicTypesManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "ChartOfAccounts",
+		"ИмяКоллекцииМетаданных": "ПланыСчетов",
+		"ИмяДляXML": "ChartOfAccounts",
+		"ИмяКоллекцииРасширения": "ChartsOfAccounts",
+		"ИмяЭлементаРасширения": "ChartOfAccounts",
+		"Порядок": 17,
+		"Синоним": "План счетов",
+		"СинонимМн": "Планы счетов",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion"
+		],
+		"ГруппыВложенных": ["Attribute", "StandardAttribute", "TabularSection", "Command"],
+		"GeneratedTypes": {
+			"ChartOfAccountsObject": "Object",
+			"ChartOfAccountsRef": "Ref",
+			"ChartOfAccountsSelection": "Selection",
+			"ChartOfAccountsList": "List",
+			"ChartOfAccountsManager": "Manager",
+			"ChartOfAccountsExtDimensionTypes": "ExtDimensionTypes",
+			"ChartOfAccountsExtDimensionTypesRow": "ExtDimensionTypesRow"
+		}
+	},
+	{
+		"ВидМетаданных": "ChartOfCalculationTypes",
+		"ИмяКоллекцииМетаданных": "ПланыВидовРасчета",
+		"ИмяДляXML": "ChartOfCalculationTypes",
+		"ИмяКоллекцииРасширения": "ChartsOfCalculationTypes",
+		"ИмяЭлементаРасширения": "ChartOfCalculationTypes",
+		"Порядок": 18,
+		"Синоним": "План видов расчета",
+		"СинонимМн": "Планы видов расчета",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion"
+		],
+		"ГруппыВложенных": ["Attribute", "StandardAttribute", "TabularSection", "Command"],
+		"GeneratedTypes": {
+			"ChartOfCalculationTypesObject": "Object",
+			"ChartOfCalculationTypesRef": "Ref",
+			"ChartOfCalculationTypesSelection": "Selection",
+			"ChartOfCalculationTypesList": "List",
+			"ChartOfCalculationTypesManager": "Manager",
+			"DisplacingCalculationTypes": "DisplacingCalculationTypes",
+			"DisplacingCalculationTypesRow": "DisplacingCalculationTypesRow",
+			"BaseCalculationTypes": "BaseCalculationTypes",
+			"BaseCalculationTypesRow": "BaseCalculationTypesRow",
+			"LeadingCalculationTypes": "LeadingCalculationTypes",
+			"LeadingCalculationTypesRow": "LeadingCalculationTypesRow"
+		}
+	},
+	{
+		"ВидМетаданных": "InformationRegister",
+		"ИмяКоллекцииМетаданных": "РегистрыСведений",
+		"ИмяДляXML": "InformationRegister",
+		"ИмяКоллекцииРасширения": "InformationRegisters",
+		"ИмяЭлементаРасширения": "InformationRegister",
+		"Порядок": 19,
+		"Синоним": "Регистр сведений",
+		"СинонимМн": "Регистры сведений",
+		"ДоступныеПрава": [
+			"Read", "Update", "View", "Edit", "TotalsControl",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion"
+		],
+		"ГруппыВложенных": ["Dimension", "Resource", "Attribute"],
+		"GeneratedTypes": {
+			"InformationRegisterRecord": "Record",
+			"InformationRegisterManager": "Manager",
+			"InformationRegisterSelection": "Selection",
+			"InformationRegisterList": "List",
+			"InformationRegisterRecordSet": "RecordSet",
+			"InformationRegisterRecordKey": "RecordKey",
+			"InformationRegisterRecordManager": "RecordManager"
+		}
+	},
+	{
+		"ВидМетаданных": "AccumulationRegister",
+		"ИмяКоллекцииМетаданных": "РегистрыНакопления",
+		"ИмяДляXML": "AccumulationRegister",
+		"ИмяКоллекцииРасширения": "AccumulationRegisters",
+		"ИмяЭлементаРасширения": "AccumulationRegister",
+		"Порядок": 20,
+		"Синоним": "Регистр накопления",
+		"СинонимМн": "Регистры накопления",
+		"ДоступныеПрава": ["Read", "Update", "View", "Edit", "TotalsControl"],
+		"ГруппыВложенных": ["Dimension", "Resource", "Attribute"],
+		"GeneratedTypes": {
+			"AccumulationRegisterRecord": "Record",
+			"AccumulationRegisterManager": "Manager",
+			"AccumulationRegisterSelection": "Selection",
+			"AccumulationRegisterList": "List",
+			"AccumulationRegisterRecordSet": "RecordSet",
+			"AccumulationRegisterRecordKey": "RecordKey"
+		}
+	},
+	{
+		"ВидМетаданных": "AccountingRegister",
+		"ИмяКоллекцииМетаданных": "РегистрыБухгалтерии",
+		"ИмяДляXML": "AccountingRegister",
+		"ИмяКоллекцииРасширения": "AccountingRegisters",
+		"ИмяЭлементаРасширения": "AccountingRegister",
+		"Порядок": 21,
+		"Синоним": "Регистр бухгалтерии",
+		"СинонимМн": "Регистры бухгалтерии",
+		"ДоступныеПрава": ["Read", "Update", "View", "Edit", "TotalsControl"],
+		"ГруппыВложенных": ["Dimension", "Resource", "Attribute"],
+		"GeneratedTypes": {
+			"AccountingRegisterRecord": "Record",
+			"AccountingRegisterExtDimensions": "ExtDimensions",
+			"AccountingRegisterRecordSet": "RecordSet",
+			"AccountingRegisterRecordKey": "RecordKey",
+			"AccountingRegisterSelection": "Selection",
+			"AccountingRegisterList": "List",
+			"AccountingRegisterManager": "Manager"
+		}
+	},
+	{
+		"ВидМетаданных": "CalculationRegister",
+		"ИмяКоллекцииМетаданных": "РегистрыРасчета",
+		"ИмяДляXML": "CalculationRegister",
+		"ИмяКоллекцииРасширения": "CalculationRegisters",
+		"ИмяЭлементаРасширения": "CalculationRegister",
+		"Порядок": 22,
+		"Синоним": "Регистр расчета",
+		"СинонимМн": "Регистры расчета",
+		"ДоступныеПрава": ["Read", "View"],
+		"ГруппыВложенных": ["Dimension", "Resource", "Attribute"],
+		"GeneratedTypes": {
+			"CalculationRegisterRecord": "Record",
+			"CalculationRegisterManager": "Manager",
+			"CalculationRegisterSelection": "Selection",
+			"CalculationRegisterList": "List",
+			"CalculationRegisterRecordSet": "RecordSet",
+			"CalculationRegisterRecordKey": "RecordKey",
+			"RecalculationsManager": "Recalcs"
+		}
+	},
+	{
+		"ВидМетаданных": "BusinessProcess",
+		"ИмяКоллекцииМетаданных": "БизнесПроцессы",
+		"ИмяДляXML": "BusinessProcess",
+		"ИмяКоллекцииРасширения": "BusinessProcesses",
+		"ИмяЭлементаРасширения": "BusinessProcess",
+		"Порядок": 23,
+		"Синоним": "Бизнес-процесс",
+		"СинонимМн": "Бизнес-процессы",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion",
+			"Start", "InteractiveStart", "InteractiveActivate"
+		],
+		"ГруппыВложенных": ["Attribute", "StandardAttribute", "TabularSection", "Command"],
+		"GeneratedTypes": {
+			"BusinessProcessObject": "Object",
+			"BusinessProcessRef": "Ref",
+			"BusinessProcessSelection": "Selection",
+			"BusinessProcessList": "List",
+			"BusinessProcessManager": "Manager",
+			"BusinessProcessRoutePointRef": "RoutePointRef"
+		}
+	},
+	{
+		"ВидМетаданных": "Task",
+		"ИмяКоллекцииМетаданных": "Задачи",
+		"ИмяДляXML": "Task",
+		"ИмяКоллекцииРасширения": "Tasks",
+		"ИмяЭлементаРасширения": "Task",
+		"Порядок": 24,
+		"Синоним": "Задача",
+		"СинонимМн": "Задачи",
+		"ДоступныеПрава": [
+			"Read", "Insert", "Update", "Delete", "View", "Edit", "InputByString",
+			"InteractiveInsert", "InteractiveSetDeletionMark", "InteractiveClearDeletionMark",
+			"InteractiveDelete", "InteractiveDeleteMarked", "InteractiveDeletePredefinedData",
+			"ReadDataHistory", "ViewDataHistory", "UpdateDataHistory",
+			"EditDataHistoryComment", "UpdateDataHistorySettings", "SwitchToDataHistoryVersion",
+			"Execute", "InteractiveExecute", "InteractiveActivate"
+		],
+		"ГруппыВложенных": ["Attribute", "StandardAttribute", "TabularSection", "Command", "AddressingAttribute"],
+		"GeneratedTypes": {
+			"TaskObject": "Object",
+			"TaskRef": "Ref",
+			"TaskSelection": "Selection",
+			"TaskList": "List",
+			"TaskManager": "Manager"
+		}
+	}
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d53d48-614a-4acb-bd4d-066176ea5b19">
+  <name>цур_ОсновныеОбъекты</name>
+  <synonym>
+    <key></key>
+    <value>Гпр основные объекты</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Основные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.цур_Настройки</content>
+  <content>Catalog.цур_Роли</content>
+  <content>DataProcessor.цур_ЗагрузкаXMLРолей</content>
+  <content>DataProcessor.цур_ГенераторРолей</content>
+  <content>Enum.цур_ИсточникиМетаданных</content>
+  <parentSubsystem>Subsystem.цур_ГенераторРолей</parentSubsystem>
+</mdclass:Subsystem>

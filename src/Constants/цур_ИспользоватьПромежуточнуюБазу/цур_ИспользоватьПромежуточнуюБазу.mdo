@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f77212f0-fd11-4e6c-9356-3462861586f9">
+  <producedTypes>
+    <managerType typeId="45b5d7a5-dfda-4c95-9718-de94aa3801ae" valueTypeId="a9043d52-c58d-40ae-8190-f6641171d1cc"/>
+    <valueManagerType typeId="b266bd71-d251-4acf-a89f-a01b2e88452d" valueTypeId="673762c8-9b73-4a46-9c1b-161e497d205d"/>
+    <valueKeyType typeId="4e3de78d-4b4a-42d2-bf47-33f7eb781712" valueTypeId="753f9750-2e10-438b-873b-61ff05c8d7bf"/>
+  </producedTypes>
+  <name>цур_ИспользоватьПромежуточнуюБазу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать промежуточную базу</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15526101-94d0-4788-940a-c876fe1b3d23">
+  <name>цур_РеестрМетаданныхСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр метаданных</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

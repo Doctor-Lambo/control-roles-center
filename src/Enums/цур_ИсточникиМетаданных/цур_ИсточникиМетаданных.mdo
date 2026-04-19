@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6">
+  <producedTypes>
+    <refType typeId="b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7" valueTypeId="c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8"/>
+    <listType typeId="d4e5f6a7-b8c9-4ad0-e1f2-a3b4c5d6e7f8" valueTypeId="e5f6a7b8-c9d0-4be1-f2a3-b4c5d6e7f8a9"/>
+    <managerType typeId="f6a7b8c9-d0e1-4cf2-a3b4-c5d6e7f8a9b0" valueTypeId="a7b8c9d0-e1f2-4da3-b4c5-d6e7f8a9b0c1"/>
+  </producedTypes>
+  <name>цур_ИсточникиМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники метаданных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a2b3c4d-5e6f-47a8-b9c0-d1e2f3a4b5c6">
+    <name>ТекущаяКонфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая конфигурация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b3c4d5e-6f7a-48b9-c0d1-e2f3a4b5c6d7">
+    <name>ИзКаталогаФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из каталога файлов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c4d5e6f-7a8b-49c0-d1e2-f3a4b5c6d7e8">
+    <name>ВыгрузитьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить автоматически</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d5e6f7a-8b9c-4ad0-e1f2-a3b4c5d6e7f8">
+    <name>ИзРегистра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из регистра сведений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e6f7a8b-9c0d-4be1-f2a3-b4c5d6e7f8a9">
+    <name>ИзРепозитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из репозитория</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

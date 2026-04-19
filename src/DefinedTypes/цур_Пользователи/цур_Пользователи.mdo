@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68aa0b49-8943-4af3-86b4-1baa74bcdb48">
+  <producedTypes>
+    <containerType typeId="bad2ec81-b8e0-49c8-90f2-a012eb72ad88" valueTypeId="e580d4a9-9a29-4292-b90e-ef907621b912"/>
+  </producedTypes>
+  <name>цур_Пользователи</name>
+  <synonym>
+    <key></key>
+    <value>Гпр пользователи</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

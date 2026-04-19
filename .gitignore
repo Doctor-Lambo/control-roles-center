@@ -1,0 +1,23 @@
+# EDT / 1C
+.metadata/
+.settings/
+bin/
+tmp/
+*.log
+*.1CD
+*.lck
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.bak
+*.orig
+
+# Build artifacts (CFE publishes via Releases; only keep dist/ if committed)
+# dist/*.cfe     # uncomment if CFE should not be committed

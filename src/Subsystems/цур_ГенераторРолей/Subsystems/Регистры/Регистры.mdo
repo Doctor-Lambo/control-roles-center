@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="167f5e50-07b9-4c85-a5b6-bc2c1f724086">
+  <name>Регистры</name>
+  <synonym>
+    <key></key>
+    <value>Регистры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.цур_ПраваДоступа</content>
+  <content>InformationRegister.цур_РеестрВидовМетаданных</content>
+  <content>InformationRegister.цур_XMLРолейКонфигурации</content>
+  <content>InformationRegister.цур_ОграниченияДоступа</content>
+  <content>InformationRegister.цур_ШаблоныОграничений</content>
+  <content>InformationRegister.цур_ПодсистемыРолей</content>
+  <content>InformationRegister.цур_МетаданныеКонфигурации</content>
+  <parentSubsystem>Subsystem.цур_ГенераторРолей</parentSubsystem>
+</mdclass:Subsystem>

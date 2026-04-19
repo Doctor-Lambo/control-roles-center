@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c">
+  <producedTypes>
+    <managerType typeId="5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d" valueTypeId="6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e"/>
+    <valueManagerType typeId="7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f" valueTypeId="8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a"/>
+    <valueKeyType typeId="9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b" valueTypeId="0f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c"/>
+  </producedTypes>
+  <name>цур_ПутьКПлатформе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к платформе 1С</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
